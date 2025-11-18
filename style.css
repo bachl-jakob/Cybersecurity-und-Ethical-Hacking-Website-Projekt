@@ -39,8 +39,11 @@ body::before {
   filter: blur(30px);
 }
 .links div{
-    background: #2e0168;
+    background: #380180;
     margin-right: 150px;
+}
+a{
+  text-decoration: none;
 }
 .links{
     display: flex; 
@@ -49,7 +52,7 @@ body::before {
     left:200px;
 }
 a:hover{
-    background: #2e0168;
+    background: #380180;
     color: #dee0e8;
     transform: scale(1.2);
 }
