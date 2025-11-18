@@ -1,0 +1,55 @@
+.h1-cyra{
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left:200px;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top right, rgba(60, 0, 100, 0.4), transparent 40%),
+              radial-gradient(circle at bottom left, rgba(0, 80, 160, 0.3), transparent 50%),
+              linear-gradient(135deg, #070014, #0a0420 60%, #0d022c);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.firstSentence{
+  font-size: 1rem;
+  position: absolute;
+  top: 200px;
+  left:200px;
+}
+.Security-rafiki{
+  position: absolute;
+  top: 100px;
+  left:1400px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 25% 30%, rgba(255, 0, 255, 0.12), transparent 50%),
+              radial-gradient(circle at 75% 70%, rgba(0, 255, 255, 0.08), transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(30px);
+}
+.links div{
+    background: #2e0168;
+    margin-right: 150px;
+}
+.links{
+    display: flex; 
+    position: absolute;
+    top: 45px;
+    left:200px;
+}
+a:hover{
+    background: #2e0168;
+    color: #dee0e8;
+    transform: scale(1.2);
+}
