@@ -22,9 +22,9 @@ body {
   top: 200px;
   left:200px;
 }
-.Security-rafiki{
+.undraw_teamwork_zplp{
   position: absolute;
-  top: 100px;
+  top: 300px;
   left:1400px;
 }
 
@@ -39,20 +39,32 @@ body::before {
   filter: blur(30px);
 }
 .links div{
-    background: #380180;
+    background: #a163ff;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
     margin-right: 150px;
 }
 a{
   text-decoration: none;
+  color: white;
+  font-weight: 300 ;
+}
+.firstParagraph{
+  font-size: large;
+  position: absolute;
+  top: 350px;
+  left: 200px;
 }
 .links{
     display: flex; 
     position: absolute;
-    top: 45px;
+    top: 35px;
     left:200px;
 }
 a:hover{
-    background: #380180;
+    background: #6c63ff;
     color: #dee0e8;
     transform: scale(1.2);
 }
