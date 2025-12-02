@@ -1,3 +1,4 @@
+/* startseite */
 .h1-cyra{
   font-size: 3rem;
   color: #fff;
@@ -5,6 +6,7 @@
   top: 50px;
   left:100px;
 }
+/* alles */
 body {
   margin: 0;
   min-height: 100vh;
@@ -15,19 +17,20 @@ body {
   color: #fff;
   overflow-x: hidden;
 }
-
+/* startseite */
 .firstSentence{
   font-size: 1rem;
   position: absolute;
   top: 220px;
   left:100px;
 }
+/* startseite */
 .PeoplePicture{
   position: absolute;
   top: 275px;
   left:1250px;
 }
-
+/* alles */
 body::before {
   content: "";
   position: fixed;
@@ -38,6 +41,7 @@ body::before {
   z-index: 0;
   filter: blur(30px);
 }
+/* startseite */
 .topbar {
   position: fixed;        /* bleibt oben kleben */
   top: 0;
@@ -53,7 +57,7 @@ body::before {
   z-index: 9999;          /* über allem */
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
-
+/* startseite */
 .topbar a {
   color: white;
   text-decoration: none;
@@ -62,30 +66,35 @@ body::before {
   user-select: none;
   transition: 200ms;
 }
-
+/* startseite */
 .topbar a:hover {
   color: #bfbfbf;
 }
+/* alles */
 a{
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
+/* startseite */
 .firstParagraph{
   font-size: large;
   position: absolute;
   top: 350px;
   left: 100px;
 }
+/* startseite */
 .secondParagraph{
   font-size: large;
   position: absolute;
   top: 650px;
   left: 1050px;
 }
+/* startseite */
 .passwortBild{
   position: absolute;
   top: 535px;
   left:200px;
   transform:rotate(-17deg);
 }
+/* Was ist Cybersecurity */
