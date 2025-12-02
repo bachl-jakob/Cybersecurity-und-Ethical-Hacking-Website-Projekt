@@ -24,8 +24,8 @@ body {
 }
 .PeoplePicture{
   position: absolute;
-  top: 275px;
-  left:1250px;
+  top: 30%;
+  left:70%;
 }
 
 body::before {
@@ -64,7 +64,7 @@ body::before {
 }
 
 .topbar a:hover {
-  color: #bfbfbf;
+  color: #574a6a;
 }
 a{
   text-decoration: none;
