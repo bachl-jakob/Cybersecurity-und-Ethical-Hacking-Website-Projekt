@@ -39,17 +39,17 @@ body::before {
   filter: blur(30px);
 }
 .topbar {
-  position: fixed;        /* bleibt oben kleben */
+  position:absolute;        /* bleibt oben kleben */
   top: 0;
   left: 0;
   width: 100%;            /* voller Bildschirm */
-  height: 60px;           /* Höhe des Balkens */
-  background: #a163ff; /* halbtransparent */
+  height: 40px;           /* Höhe des Balkens */
+  background: #807196; /* halbtransparent */
   backdrop-filter: blur(8px);
   display: flex;          /* Links in einer Reihe */
   align-items: center;    /* vertikal mittig */
-  gap: 40px;              /* Abstand zwischen Links */
-  padding-left: 280px;
+  gap: 20px;              /* Abstand zwischen Links */
+  padding-left: 162px;
   z-index: 9999;          /* über allem */
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
