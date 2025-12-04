@@ -58,17 +58,25 @@ body::before {
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 /* startseite */
-.topbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  user-select: none;
-  transition: 200ms;
+.topbar {
+  position: fixed;        /* bleibt oben kleben */
+  top: 0;
+  left: 0;
+  width: 100%;            /* voller Bildschirm */
+  height: 60px;           /* Höhe des Balkens */
+  background: #a163ff; /* halbtransparent */
+  backdrop-filter: blur(8px);
+  display: flex;          /* Links in einer Reihe */
+  align-items: center;    /* vertikal mittig */
+  gap: 40px;              /* Abstand zwischen Links */
+  padding-left: 280px;
+  z-index: 9999;          /* über allem */
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 /* startseite */
 .topbar a:hover {
-  color: #574a6a;
+  transform: scale(1.2);
+  color: #bbbbbb;
 }
 /* alles */
 a{
