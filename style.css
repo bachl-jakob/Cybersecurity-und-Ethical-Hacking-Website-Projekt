@@ -105,4 +105,65 @@ a{
   left:10%;
   transform:rotate(-17deg);
 }
-/* Was ist Cybersecurity */
+/* II- Was ist Cybersecurity */
+#II-Überschrift{
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin:auto;
+  clear: both;
+}
+#II-FirstParagraph{
+  text-align: center;
+  float: left;
+  clear: both;
+  height: 200px;
+  width: 400px;
+  margin-left: 200px;
+}
+#II-SecondParagraph{
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin-right: 200px;
+}
+#II-ThirdParagraph{
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  clear: both;
+  margin-left: 200px;
+}
+#II-FourthParagraph{
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  float: right;
+  clear: both;
+  margin-right: 200px;
+}
+#II-FifthParagraph{
+  height: 300px;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+  float: left;
+  margin-left: 200px;
+  font-size: 1.3rem;
+}
+#II-SixthParagraph{
+  text-align: center;
+  height: 200px;
+  width: 500px;
+  padding: 20px;
+  clear: both;
+  margin: auto;
+  font-size: 1.3rem;
+}
