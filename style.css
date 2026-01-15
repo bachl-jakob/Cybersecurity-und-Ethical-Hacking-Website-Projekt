@@ -79,13 +79,13 @@ a{
 .secondParagraph{
   font-size: large;
   position: absolute;
-  top: 650px;
-  left: 1050px;
+  top: 720px;
+  left: 650px;
 }
 /* startseite */
 .passwortBild{
   position: absolute;
-  top:85%;
+  top:95%;
   left:10%;
   transform:rotate(-17deg);
 }
